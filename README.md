@@ -1,4 +1,4 @@
-# FLCoin
+# FLCoin Masternode install (Ubuntu 16.04)
 Shell script to install a [FLCoin Coin Discord](https://discord.gg/Vz9wFtF) on a Linux server running Ubuntu 16.04. Use it on your own risk.
 ***
 
