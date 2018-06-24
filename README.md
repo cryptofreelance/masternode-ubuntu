@@ -10,7 +10,10 @@ bash mn_install.sh
 ***
 
 ## Desktop wallet setup  
-[Windows](https://github.com/cryptofreelance/FLCoin/releases/download/v.3.0.1.4/FLCoin_Windows_v.3.0.1.4.zip) [Linux](https://github.com/cryptofreelance/FLCoin/releases/) [MacOS](https://github.com/cryptofreelance/FLCoin/releases/)
+**Wallets**
+[Windows](https://github.com/cryptofreelance/FLCoin/releases/)
+[Linux](https://github.com/cryptofreelance/FLCoin/releases/)
+[MacOS](https://github.com/cryptofreelance/FLCoin/releases/)
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:  
 1. Open the FLCoin Desktop Wallet.  
