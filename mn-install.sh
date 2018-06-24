@@ -17,6 +17,12 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
 
+function  deinstall() {
+  systemctl stop $COIN_NAME.service
+  rm /etc/systemd/system/$COIN_NAME.service
+  rm -R $CONFIGFOLDER
+  clear
+}
 
 
 function compile_node() {
@@ -235,6 +241,7 @@ function important_information() {
 }
 
 function setup_node() {
+  deinstall
   get_ip
   create_config
   create_key
