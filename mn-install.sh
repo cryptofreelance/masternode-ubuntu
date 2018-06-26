@@ -1,7 +1,7 @@
 #!/bin/bash
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='flcoin.conf'
-CONFIGFOLDER='/var/flcoin/'
+CONFIGFOLDER='/root/.flcoincore/'
 COIN_DAEMON='/usr/local/bin/flcoind'
 COIN_CLI='/usr/local/bin/flcoin-cli'
 COIN_REPO='https://github.com/cryptofreelance/masternode-ubuntu/releases/download/v.3.0.1.4/FLCoin-daemon.Ubuntu_16_v.3.0.1.4.tar.gz'
