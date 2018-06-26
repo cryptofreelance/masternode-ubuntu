@@ -5,7 +5,7 @@ Shell script to install a [FLCoin Discord](https://discord.gg/Vz9wFtF) on a Linu
 ## Installation
 ```
 wget -q https://raw.githubusercontent.com/cryptofreelance/masternode-ubuntu/master/mn-install.sh
-bash mn_install.sh
+bash mn-install.sh
 ```
 ***
 
