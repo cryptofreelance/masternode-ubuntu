@@ -55,9 +55,9 @@ flcoin-cli getinfo
 Also, if you flcoin to check/start/stop **FLCoin**, run one of the following commands as **root**:
 
 ```
-systemctl status flcoin #To check if FLCoin service is running  
-systemctl start flcoin #To start FLCoin service  
-systemctl stop flcoin #To stop FLCoin service  
-systemctl is-enabled flcoin #To check if FLCoin service is enabled on boot  
+systemctl status flcoin.service #To check if FLCoin service is running  
+systemctl start flcoin.service #To start FLCoin service  
+systemctl stop flcoin.service #To stop FLCoin service  
+systemctl is-enabled flcoin.service #To check if FLCoin service is enabled on boot  
 ```  
 ***
